@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["dom", "es2015", "es2016", "es2017"],
+    "baseUrl": ".",
+    "paths": {
+      "client/*": ["./src/client/*"],
+      "server/*": ["./src/server/*"]
+    }
+  },
+  "exclude": ["node_modules", "src/**/*.test.tsx"]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "falcon",
-  "version": "1.0.15-SNAPSHOT",
-  "description": "",
+  "name": "G.O.A.T.",
+  "version": "0.0.1",
+  "description": "GOAT Loyalty Project",
   "scripts": {
     "dev": "npm run prebuild && next src",
     "start": "node .next/production-server/server/index.js",
@@ -23,12 +23,11 @@
     "commitmsg": "./git_hooks/commit-msg ${GIT_PARAMS}",
     "precommit": "npm run lint && npm run test-no-coverage"
   },
-  "docker-registry": "824691084780.dkr.ecr.us-east-1.amazonaws.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LoyaltyOne/falcon.git"
   },
-  "author": "Fungibles",
+  "author": "Loyalty",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LoyaltyOne/falcon/issues"
@@ -52,7 +51,8 @@
     "contentful": "^7.0.3",
     "cookie-parser": "^1.4.3",
     "dotenv": "^6.0.0",
-    "express": "^4.16.3",
+    "easy-peasy": "1.6.0",
+    "express": "^4.16.4",
     "express-session": "^1.15.6",
     "glob": "^7.1.3",
     "joi-browser": "^13.4.0",
